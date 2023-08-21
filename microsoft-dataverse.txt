@@ -1,0 +1,18 @@
+
+Environments
+
+Tables
+
+Columns
+
+relationship
+
+Type data sources:
+1. Tabular data: Returns data in a structured table format
+2. uses functions and interacts with the data source
+
+use Cases
+
+Limitation
+
+Business rules and process flows

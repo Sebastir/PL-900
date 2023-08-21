@@ -1,0 +1,20 @@
+Is a low-code platform that spans Office 365, Azure, Dynamics 365 and standalone apps
+helps to add value to any business by analyzing, acting and automating.
+
+4 main services under Power Platform:
+1. Analyze data in POWER BI -- Business Analytics
+2. Build custom apps - Power Apps -- Application Development
+3. Automate Process - Power Automate -- Process Automation
+4. Build powerful Chatbots - Power Virtual Agents -- Intelligent Virtual Agents
+
+AI Builder - 6 Models
+- Category Classification
+- Entity Extraction
+- Form Processing
+- Image Classification
+- Object Detection
+- Prediction
+
+Data Lost prevention policies --> admin.powerplatform.microsoft.com/Development
+Accessibility in Microsoft Power Platform --> an accessible canvas app will allow users with
+vision, hearing, and other impartment to successfully use the app.
