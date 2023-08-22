@@ -7,7 +7,7 @@ Intro
 
 canvas app (Build an app from a blank canvas )
   - Start choosing screensize mobile, tablet,  desktop screensize
-  - Power App Studio (where we create an App)
+  - Power App Studio (where we create an App), the designer has total control over the app layout (design)
 
 Formulas combine many elements:
   - Functions --> take parameters and perform an operation (SubmitForm works properly in presence of Button.OnSelect)
@@ -21,7 +21,30 @@ model-driven app (Build from data in Microsoft Dataverse)
 - define forms
 - define business rules
 
+Is an approach that focus on adding dashboards, forms, views to your app.
+Layout is determined by component you add.
+Quickly viewing your business data and making decision
+1. Model your business data (model driven design uses metadata driven architecture)
+2. Define your business processes
+3. Build the app
+
+Building Blocks
+Data --> Tables, Columns and relationship
+UI --> App, site Map, Forms, views
+Logic --> Business Process Flows, workflows, actions, business rules, flows
+Visualization --> Charts, Dashboards, Embedded Power BI
+
+Tables are the core component when developing model-driven apps.
+
+
 Power App Portals (Externally-facing websites)
+Portals help you provide an organized, searchable knowledge
+Portals provide simple navigation with seamless transition between self and assited support
+Power Apps portals are built on top of Dataverse
+
+Core Components of portals
+Power App Portal Studio >> Webpages (instance of page template) >> Page Templates >> Content Snippets >> Entity Lists and entity forms
+
 
 ** Prediction model (Create a model that can predict yes or no answer based on historical data)
 
