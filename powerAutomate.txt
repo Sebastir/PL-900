@@ -1,0 +1,42 @@
+Scale automation efficently:
+- Pre-built templates
+- Automate across your favorite apps and service (500+ connectors)
+- Integrates with MS ecosystem (Azure, M365, Dynamics 365)
+- On-premises and in the Cloud
+
+
+3 types of flows
+Event driven Flows:
+- require a trigger
+- One or two more actions
+
+The difference between My Flow and My Team Flow is the ownership.
+
+Business process flows
+--> Use to create guided-experience on apps
+
+Desktop Flows
+--> Robotic Process Automation Solutions
+Record yourself performing actions, letting you automate manual business processes.
+
+AI Capabilities
+1. Form processesor:
+  Extracts text from an uploaded image or taken photo
+
+2. Object Detector:
+  Identifies objects from uploaded image or taken photo, and provides a count of the number objects present
+
+3. Prediction:
+  Model predicts whether something will happen or not based on historic data
+  Will the customer be satisfied with the project outcome?
+  Will a project be profitable
+  Will a customer churn based on an activity?
+
+4. Text Classification
+  Categorize Text by its meaning, making it is easier to analyze.
+
+5. Entity Extraction
+  Recognize specific information about your business from data
+
+6. Image Classification
+  Label image based on their content
