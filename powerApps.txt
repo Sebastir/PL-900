@@ -1,0 +1,29 @@
+Intro
+- Helps to digitalize business processes
+- Low / no-code platform for building apps
+- Great for replace paper-based / spreadsheets.
+- Low technology barrier entry
+- Enable front-line workers to solve their daily business problems in a very low cost experience
+
+canvas app (Build an app from a blank canvas )
+  - Start choosing screensize mobile, tablet,  desktop screensize
+  - Power App Studio (where we create an App)
+
+Formulas combine many elements:
+  - Functions --> take parameters and perform an operation (SubmitForm works properly in presence of Button.OnSelect)
+  - Signals --> return information about the env (Location returns the device's current GPS coordinates)
+  - Enumeration --> pre-defined constant value like Color.Red, Color.Blue
+  - Named operators --> ThisItem or Parent
+
+model-driven app (Build from data in Microsoft Dataverse)
+- interact with existing data
+- define relationship
+- define forms
+- define business rules
+
+Power App Portals (Externally-facing websites)
+
+** Prediction model (Create a model that can predict yes or no answer based on historical data)
+
+Security and Administration can be access admin.powerplatform.compliant
+Power Apps has a set of PowerShell cmdlets for app creators, administrator and developers to automate administrative duties
