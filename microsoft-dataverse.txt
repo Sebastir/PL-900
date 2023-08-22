@@ -1,11 +1,35 @@
+Cloud-based solution that easily structured a variety of data and business logic to support interconnected apps and processes
+in a secure and compliant manner.
+-- Available Global and deploy localy to comply with local regulations.
+-- Central data repository for business data.
+
 
 Environments
+Each environment allows you to provide 1 dataverse database. So user access, security settings and storage are associated
+with this particular dataverse instance.
+Each Environment is created by Azure AD tenant, so only resources located within the tenant can have access.
 
+Apps --> Production
+Dev Environment --> Sandboxes
+Proof of Concept --> Trial environemnt (30 days)
 Tables
 
+Standard: Base set of tables, created for every instance of a Dataverse database.
+Custom: Created for a specific business application.
+
 Columns
+Store discrete pieces of information within a record in a table.
+Every column has a type (Date columns for dates)
 
 relationship
+Represent the way that tables are connected
+One to many (Parent - child). An invoice (parent table) has many items (child rows). Invoice ID is stored in Item table
+many to many -- A Contact can attend multiple Events, an Event can have many Contacts attend
+Benefits Splitting data
+- Not support huge blank data
+- Avoiding repeatitive data
+- Easy for reporting
+- Efficiency when retrieve info (scale while maintainig)
 
 Type data sources:
 1. Tabular data: Returns data in a structured table format
@@ -16,5 +40,21 @@ use Cases
 Limitation
 
 Business rules and process flows
+Allow for the application to add business logic at the data layer vs app layer
+example of business rule:
+- Set column values
+- Clear column values
+- validate data
+- show error message
+
+*If the table is used in Power Automate, the validation will be carried out.
 
 Making a change
+
+In order to create a prefix, is importnat to create first a Publisher
+When creating a new solution from Power Apps, the recommendation is created a Prefix (to identify)
+
+
+Solution >> Table >> View
+
+Pubishing customization is needed after Saving! to persist the changes introduce
