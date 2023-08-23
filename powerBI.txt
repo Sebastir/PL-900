@@ -1,0 +1,44 @@
+Concept
+Self-service platform that helps you discover, analize and visualize data in toder to discuss insights with your colleagues
+allows to connect different data stores (Excel files, databases, azure data, Dynamic 365, Salesforce, Facebook, Google Analytic)
+data is only good, as long is able to be understood.
+unrelated sources data into into coherent and  visuall inmersive insights.
+
+Key Components
+Capacities --> shared (share with others MS customer) or dedicated (required a subscription) capacity to host and deliver content
+Workspaces --> workspace is for personal use, it could also be shared for collaboration purpose. Workspace are created on a Share capacity by default
+Datasets --> collection of data, whether were imported or connect to Workspaces. You can share your own workspace.
+Reports: One or more page of visualization (Reading view, Editing view). To collaborate all members need Power BI Pro license
+Dashboards: Single canvas containing tiles and widgets (Easy viewing and monitoring).
+
+App is a collection of Dashboards. Are interactive, consumer does not need PRO license.
+
+Template Apps
+- Enable Power BI partners to build Power BI apps and deploy to any Power BI customer.
+- you create a set of out-of-the-box content
+
+Ribbon.
+Report View
+Pages Table
+Visualization pane
+Fields pane
+
+Silcers is the simple way to filtering your report page.
+Others type:
+- Report
+- Page
+- Visual
+- Drillthrough
+
+
+Transformation is done with Power Query Editor
+ Transpose data allows xto swap rows into columns.
+ Format data is also possible
+
+ When you combine values in data, it is called aggregating.
+ Sum
+ Average
+ Do NOt Summarize
+
+ Security and Admins.
+ Power BI is built in Azure, users sign in with their credentials held in Azure AD, admin determined if recipients can edit or read only
