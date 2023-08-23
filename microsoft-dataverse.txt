@@ -2,7 +2,16 @@ Cloud-based solution that easily structured a variety of data and business logic
 in a secure and compliant manner.
 -- Available Global and deploy localy to comply with local regulations.
 -- Central data repository for business data.
+- It's not designed for stand-alone, so you need internet connection to access and use it.
 
+Difference from Traditional DB
+MS Dataverse incorporates security, logic, data, and storage into a central point.
+
+Security --> Dataverse handles authentication via Azure Active Directory
+Logic --> Dataverse allows you to easily apply business logic at the data level.
+Data --> Dataverse allows you to discover, model, validate and report on your data.
+Storage --> Store in Azure Cloud (remove the concern how to scale)
+Integration --> API, webhooks, eventing provides flexibility to get data in and out.
 
 Environments
 Each environment allows you to provide 1 dataverse database. So user access, security settings and storage are associated
@@ -12,17 +21,32 @@ Each Environment is created by Azure AD tenant, so only resources located within
 Apps --> Production
 Dev Environment --> Sandboxes
 Proof of Concept --> Trial environemnt (30 days)
-Tables
 
-Standard: Base set of tables, created for every instance of a Dataverse database.
+Microsoft Dataverse strucure and Benefits
+Structure is baed upon the definition and schema in the Common Data Model.
+It simplifies the integration of solutions which make use of the Common Data Model
+Rich ecosystem of solutions (templates, tables)
+
+Tables
+Logical structure containing rows and columns.
+Tables can hold millions of items
+And you can extend the storage in each instance of a Microsoft Dataverse DB to 4 terabytes per instance.
+Data storage is pooled between all licensed
+The amount of data is based on type of license.
+Standard: outo-of-box tables like account, business unit, contact, task.
+Managed: Are not customizable and have been imported into the env as part of a managed solution
 Custom: Created for a specific business application.
 
 Columns
-Store discrete pieces of information within a record in a table.
+Store discrete pieces of information within a row in a table.
 Every column has a type (Date columns for dates)
 
-relationship
-Represent the way that tables are connected
+
+Relationship
+- To make an efficient and scalable solution for most of the solutions that you build,
+ you'll need to split up data into different containers (tables).
+
+- Represent the way that tables are connected
 One to many (Parent - child). An invoice (parent table) has many items (child rows). Invoice ID is stored in Item table
 many to many -- A Contact can attend multiple Events, an Event can have many Contacts attend
 Benefits Splitting data
@@ -30,6 +54,10 @@ Benefits Splitting data
 - Avoiding repeatitive data
 - Easy for reporting
 - Efficiency when retrieve info (scale while maintainig)
+
+A lookup column is also known as the foreign key.
+Alternate keys are created for integrations with other systems.
+The primary key column is created when the table is created.
 
 Type data sources:
 1. Tabular data: Returns data in a structured table format
@@ -46,6 +74,15 @@ example of business rule:
 - Clear column values
 - validate data
 - show error message
+
+Dataflows
+- Is a data preparation technology
+- Are used to ingest, transform and load data into Dataverse, Power BI, Azure Data Lake Storage
+- Is authored by using Power Query
+- It decouples transformation from modeling and visualization layer
+
+
+By applying this business rule at the data level instead of the app level, you have better control of your data.
 
 *If the table is used in Power Automate, the validation will be carried out.
 

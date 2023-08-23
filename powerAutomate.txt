@@ -1,3 +1,10 @@
+Common Scenarios adn capabilities of Power Automate
+- Automating repetitive tasks such as moving data from one system to another
+- Guiding a user through a process so they can complete the different stages.
+ For example, a sales organization might want to guide sellers through the process of selling products to customers.
+- Automating desktop based and website processes with robotic process automation (RPA) capabilities.
+
+
 Scale automation efficently:
 - Pre-built templates
 - Automate across your favorite apps and service (500+ connectors)
@@ -9,11 +16,32 @@ Scale automation efficently:
 Event driven Flows:
 - require a trigger
 - One or two more actions
+Cloud flows: These are most used flows
+  Automated Flows: Flows which are triggered by an event.
+  Instant Flows: Are started with a click of a button (boss reminder)
+  Scheduled: Flows run on a defined schedule.
+
+  Scenarios
+    Approvals
+    Application Integration
+    Improve productivity
 
 The difference between My Flow and My Team Flow is the ownership.
 
 Business process flows
---> Use to create guided-experience on apps
+--> Use to create guided-experience on
+--> These flows are used in model-driven apps to help people get work done.
+
+Model-driven applications
+Sales Process
+Case Resolution
+Event Planning
+Selling a home
+
+During each stage, there is information that needs to be logged.
+Based on the information captured, the stages of the business process flow might change.
+For example, since the Counter Offer field is set to yes, the counter offer stage appears.
+ If the Counter Offer field was set to no, the stage would not appear.
 
 Desktop Flows
 --> Robotic Process Automation Solutions
@@ -40,3 +68,14 @@ AI Capabilities
 
 6. Image Classification
   Label image based on their content
+
+Explore the different Power Automate Apps
+Power Automate Portal: Single access point for makers where they can easily create, manage, monitor the different Flows
+Power Automate Mobile: Provide access to Power Automate while on the go.
+Power Automate for Desktop: Is used to create robotic process auotmation flows.
+
+Data Processing
+Compose creates an array that you can reference later in the flow.
+Apply to each is a loop that processes each record in a set of data in turn.
+A condition is used for if…then…else logic to control the actions taken in a flow.
+A switch action is used to perform different actions depending on a value in the flow.

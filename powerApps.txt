@@ -6,8 +6,48 @@ Intro
 - Enable front-line workers to solve their daily business problems in a very low cost experience
 
 canvas app (Build an app from a blank canvas )
+  - Is a great option to build apps designed to perform specific tasks
+  - Canvas apps is that they interact with data from multiple data sources
+  - App designers can easily drag and drop a variety of different controls
+  - Canvas can be embedded into SharePoint sites, Power BI reports, model-driven apps or event MS Teams
   - Start choosing screensize mobile, tablet,  desktop screensize
-  - Power App Studio (where we create an App), the designer has total control over the app layout (design)
+  - Power App Studio (where we create an App)
+  - App maker has control over the data sources, screen layout, overall user experience
+  - reports a probelm with audio/visual equipment (Task focus)
+  - Collection in a canvas app can be used to store data temporarily within the app.
+
+Journey to Build Canvas App
+- Identify a business need that can be addressed by Power Apps.
+  ** App Format (Tablet or Phone)
+- Connect to any necessary data in your Power Apps.
+  ** you need to connect your app to your data.
+- Design the app using controls, buttons, and an easy-to-use interface.
+  GALLERY
+  A gallery displays rows from a table of data.
+  FORM
+  Forms are focused on working with a specific record, often based on a selection from a gallery.
+  MEDIA
+  Add background images, include a camara button (so users can take pictures from the app), barcode reader
+  CHARTS
+  Add charts so user can perform analysis
+
+  INPUT CONTROLS (Insert tab you can access controls)
+    Text
+    Inputs
+    Buttons
+    Dropdowns
+    Toggles
+    Date pickers
+    Sliders
+   You can add these controls to galleries, forms, and screens to build a functional and aesthetic experience for your app.
+  INTELLIGENT CONTROLS
+    There are hardware-backed controls which allow access to the camera, bar code scanner, GPS, and more hardware features.
+  FUNCTIONS
+    Functions are the glue that binds all these controls, inputs, and data sources together.
+- Then your end user can interact with the data to accomplish the business need.
+- Save and publish the app and test functionality.
+- Once satisfied, share the app with end users to give them a better business process.
+
 
 Formulas combine many elements:
   - Functions --> take parameters and perform an operation (SubmitForm works properly in presence of Button.OnSelect)
@@ -16,10 +56,37 @@ Formulas combine many elements:
   - Named operators --> ThisItem or Parent
 
 model-driven app (Build from data in Microsoft Dataverse)
-- interact with existing data
+- app design focuses on adding components such forms, views, charts, and dashboards to tables
+-they are fully responsive (browser, mobile, tablets,)
 - define relationship
 - define forms
 - define business rules
+- Process focused
+
+Data Components of the model-driven app.
+Table. Logical structure of data
+Column. Data type of a table
+Relationship. how tables related to each other (1:N, N:1, N:N)
+Choice (option has a number value and a label) Single or multiple value possible.
+
+User Interface Component
+App --> App basic info like components, properties, the url
+Site Map --> specifies the navigation for your app
+  Subarea in sitemap can be used to show tables/ dashboards/custom pages
+  You can add multiple subareas to a group
+Form --> how users see and interact with individual record.
+View --> defines how list of rows of a specifc table appears in your app (Active Tickers, Today Tickets, 1-week Tickets)
+        (which columns are shown, width of each column, sorting behaviour and the default filters)
+
+Logic Components
+Business Process Flow --> standarized how a company handle a specifc process
+Business rule --> apply rules to hide / show & validate data as per field requirements
+Flows --> automated workflows between apps and services
+
+Visualization Components
+Chart --> invidual graphical visualization in a view or form
+Dashboards --> set of charts
+Embedded Microsoft Power BI --> adds embedded Power BI tiles and dashboards to your app.
 
 Is an approach that focus on adding dashboards, forms, views to your app.
 Layout is determined by component you add.
@@ -29,13 +96,21 @@ Quickly viewing your business data and making decision
 3. Build the app
 
 Building Blocks
-Data --> Tables, Columns and relationship
+Data --> Tables, Columns, relationship, choices
 UI --> App, site Map, Forms, views
 Logic --> Business Process Flows, workflows, actions, business rules, flows
 Visualization --> Charts, Dashboards, Embedded Power BI
 
 Tables are the core component when developing model-driven apps.
 
+Add new content to an application:
+- By clicking Add page button
+** Table based form and view (display records in full page)
+** Dashboard (display charts)
+** Custom (design and build type of page, drag and drop components)
+
+Testing the application
+By selecting the Play button on the top right, the app is put into Play mode.
 
 Power App Portals (Externally-facing websites)
 Portals help you provide an organized, searchable knowledge

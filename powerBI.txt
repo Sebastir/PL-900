@@ -8,9 +8,11 @@ Key Components
 Capacities --> shared (share with others MS customer) or dedicated (required a subscription) capacity to host and deliver content
 Workspaces --> workspace is for personal use, it could also be shared for collaboration purpose. Workspace are created on a Share capacity by default
 Datasets --> collection of data, whether were imported or connect to Workspaces. You can share your own workspace.
+  A dataset can be shared and can be used to create new reports and dashboards.
 Reports: One or more page of visualization (Reading view, Editing view). To collaborate all members need Power BI Pro license
+  Sharing a report only allows a user to interact with the report
 Dashboards: Single canvas containing tiles and widgets (Easy viewing and monitoring).
-
+  Sharing a dashboard only allows a user to interact with the dashboard
 App is a collection of Dashboards. Are interactive, consumer does not need PRO license.
 
 Template Apps
@@ -36,9 +38,20 @@ Transformation is done with Power Query Editor
  Format data is also possible
 
  When you combine values in data, it is called aggregating.
- Sum
- Average
+ Sum for numeric values
+ Average for numeric values
  Do NOt Summarize
+ Count is for Text
+Latest is for Date type of data
 
  Security and Admins.
  Power BI is built in Azure, users sign in with their credentials held in Azure AD, admin determined if recipients can edit or read only
+
+Power BI reports allow users to drill into data, but not aggregate multiple datasets.
+A report can be tied to a single data set and have multiple pages.
+Dashboards allow the aggregation of data into a single page, and they can only be published in the Power BI service.
+Dashboards consist of a single page
+A visualization can be selected and then pinned to a new or an existing dashboard
+The Q&A feature on the dashboard allows asking a question about the data and this generates visualizations that can be pinned to the dashboard.
+Pinning a live report page will add the page and all its visualizations to a dashboard.
+The visualization pane is available for reports not for dashboards.

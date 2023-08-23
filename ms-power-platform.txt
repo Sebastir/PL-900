@@ -1,11 +1,35 @@
+CONCEPT
 Is a low-code platform that spans Office 365, Azure, Dynamics 365 and standalone apps
 helps to add value to any business by analyzing, acting and automating.
 
-4 main services under Power Platform:
-1. Analyze data in POWER BI -- Business Analytics
-2. Build custom apps - Power Apps -- Application Development
-3. Automate Process - Power Automate -- Process Automation
-4. Build powerful Chatbots - Power Virtual Agents -- Intelligent Virtual Agents
+VALUE
+Microsoft Power Platform enables your business to craft solutions,
+ while empowering you to unite customized technology to help everyone,
+  from CEO to front line workers and to drive the business with data-driven insights.
+  fusion development, allowing organizations to use the best resources for the required task.
+
+- Cost Benefits
+- Increase performance and efficiency
+- the speed of development (templates, connectors )
+
+Microsoft Power Platform is composed:
+- Power Apps (App development)
+    It is a suite of apps development services with a scalable data platform (Microsoft Dataverse)
+    and an ability to interact with cloud & on-premises data sources.
+- Power Automate (process automation)
+    Power Automate lets users create automated workflows between applications and services not only for individual users
+    but also for enterprise-grade process automation.
+- Power BI (business analytics)
+    Sharing insights through data visualization (reports & dashboards) for fast, informed decisiones.
+- Power Virtual Agents (intelligent virtual agents)
+    empower SME to build and maintain their own conversational solution
+- Power Pages (external facing website)
+    building websites by using the same shared business data in Microsoft Dataverse that you use for
+    building apps, VA, reports, analytics.
+
+Additional Tools
+AI Builder
+Is a turnkey solution that allows you to easily add AI capabilities to your workflows / apps
 
 AI Builder - 6 Models
 - Category Classification
@@ -15,6 +39,98 @@ AI Builder - 6 Models
 - Object Detection
 - Prediction
 
-Data Lost prevention policies --> admin.powerplatform.microsoft.com/Development
+Microsfot Dataverse
+Scalable data service which users can securely store and manage data from multiple sources and integrate them
+in business apps using a common data model to ensure ease and consistency to users.
+ It’s the foundation that enables the consolidation, display, and manipulation of data.
+ In Dataverse data is stored in tables
+Dataverse also has other elements that help with securing data, data validation, and productivity.
+
+ Connectors
+ enable you to connect apps, data, and devices in the cloud.
+There are more than 900 pre-built connectors for Power Platform
+They act as the bridge between data sources and your app or workflow.
+Connectors allow you to extend your business solutions across platforms and add functionality for your users.
+
+Type of data sources
+Tabular data
+  Is one that returns data in structured table format
+
+Function-based data
+   is one that uses functions to interact with the data source (send an email, update permissions, create a calendar event)
+
+ Connectors are divided into standard and premium.
+ - Standard connectors are SharePoint, Outlook and Youtube
+ - Premium require additional licensing SQL Server, Survey Monkey, Mail Chimp
+
+Microsoft also provides connectors to their Azure services, like reading text off images or recognizing faces in images.
+
+Custom Connectors
+- Custom connectors allow you to extend your app by calling a publicly available API
+- Connectors work by sending information back and forth across these APIs
+  and gathering available functions into Power Apps or Power Automate.
+  8
+
+
+Describe how Power Platform works with Microsoft 365 apps and service
+Power Platform includes multiple connectors (Excel, SharePoint, Outlook, users) that are designed to work with Microsoft 365 services.
+- Automating excel inputs
+- Saving attachment into One drive
+
+Explore how Power Platform works with Microsoft Teams?
+Organizations can build custom applications for Teams based on the needs of their users.
+Dedicated Power Virtual Assistant (FAQ)
+Dedicated Expenses Submission for Open Houses
+POWER BI Report for Analytics
+External Website for Visitor to showcase products
+
+Describe how Power Platform works with Microsoft Dynamics 365 apps?=
+- Dynamics 365 has a variety of enterprise resource planning (ERP) and customer engagement applications.
+- all Dynamics 365 customer engagement apps are what are referred to as model-driven applications.
+ Model-driven applications are built using Power Apps. They are based on a data model store within Microsoft Dataverse.
+
+Describe how Power Platform solutions consume Microsoft Azure services
+ Azure services can be used with Power Platform to help modernize legacy systems,
+  automate processes, and create advanced analytical solutions.
+
+Describe Power Platform Administration
+- Environments are used to store, manage, and share your organization's business data, apps, and flows.
+- Each environment allows you to provision one Microsoft Dataverse database
+- Each environment is created under a Microsoft Azure Active Directory (Azure AD) tenant.
+- An environment is also bound to a geographic location
+-  A separate environment ensures that everything can be tested without impacting users.
+
+Microsoft Power Platform admin center
+- Is a tool for admin to manage and maintain any Power Platform Implementation
+
+Maker Portal (Power Automate, POwer BI, Power Pages, Power Virtual Agents)
+- Are product-specific(Power App portal), update tables, connections, flows related to this environment
+
+Describe Power Platform security and governance
+The platform is governed by the Microsoft Online Service Terms and the Microsoft Enterprise Privacy Statement
+Microsft Trust Center is the primary resource for Power Platform compliance information
+
+Data Lost prevention policies
+Data loss preventions (DLP) policies act as guardrails to help prevent users to expose unintentionally organizational data
+It offers the right balance between protection and productivity.
+Connectors can be classified as
+Business --> Connectors host business-use data
+Non-Business --> Connect host personal-use data
+Blocked --> Connects you want to restrict usage across one or move enviroment
+
+Data Protection
+Data in transit and within MS Datacenter are secured
+Connections are encrypted, all public end points are secured using TLS.
+TLS 1.2 (or higher) is requried for accessing the server endpoints.
+
+Accessibility
+An accessible canvas app will allow users with vision, hearing, and other impairments to successfully use the app.
+You can use Accessibility Checker to help review potential accessibility issues in your app.
+
+admin.powerplatform.microsoft.com/Development
 Accessibility in Microsoft Power Platform --> an accessible canvas app will allow users with
 vision, hearing, and other impartment to successfully use the app.
+Data policies prevent an app or a flow from connecting to two different data sources
+that may allow data to be accessed or copied outside of the organization.
+The Microsoft Power Platform CoE toolkit will enable monitoring of the apps
+ conditional access can control when a user can access a Power Apps app using various signals such as location and device.
