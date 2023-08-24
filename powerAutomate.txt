@@ -21,6 +21,12 @@ Cloud flows: These are most used flows
   Instant Flows: Are started with a click of a button (boss reminder)
   Scheduled: Flows run on a defined schedule.
 
+    Trigger: Determine what starts the flow
+    Actions: Determine what the flow does
+
+Cloud flows are used more to Automate using API
+Desktop flows are often used for user interface automation .
+
   Scenarios
     Approvals
     Application Integration
@@ -46,6 +52,7 @@ For example, since the Counter Offer field is set to yes, the counter offer stag
 Desktop Flows
 --> Robotic Process Automation Solutions
 Record yourself performing actions, letting you automate manual business processes.
+Desktop flows are addressed to essentially everyone who is performing simple or complex rule-based tasks on their workstations.6
 
 AI Capabilities
 1. Form processesor:

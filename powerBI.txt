@@ -4,20 +4,71 @@ allows to connect different data stores (Excel files, databases, azure data, Dyn
 data is only good, as long is able to be understood.
 unrelated sources data into into coherent and  visuall inmersive insights.
 
+Microsoft Power BI is a collection of software services, apps, and connectors that work together
+to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
+
+Parts of Power BI
+- Power BI Desktop (desktop app)
+- Power BI Service (SaaS)
+- Mobile Power BI (phone - tablets)
+
 Key Components
-Capacities --> shared (share with others MS customer) or dedicated (required a subscription) capacity to host and deliver content
-Workspaces --> workspace is for personal use, it could also be shared for collaboration purpose. Workspace are created on a Share capacity by default
-Datasets --> collection of data, whether were imported or connect to Workspaces. You can share your own workspace.
+Capacities --> shared (share with others MS customer - by default workspaces are craeted on a shared capacity) or dedicated (required a subscription) capacity to host and deliver content
+Workspaces --> are containers for dashboards, reports, datasets and dataflows in Power BI.
+My workspace is for personal use, it could also be shared for collaboration purpose. Workspace are created on a Share capacity
+ by default. Workspaces are used to collaborate and share content with colleagues. All workspace memebers need Power BI Pro licenses
+Datasets --> collection of data, whether are imported or connect to Workspaces. You can share your own workspace.
   A dataset can be shared and can be used to create new reports and dashboards.
+  Discovering and reusing those standardized datasets is key.
+  To consume these shared datasets just choose Power BI datasets when creating your Power BI report.
 Reports: One or more page of visualization (Reading view, Editing view). To collaborate all members need Power BI Pro license
   Sharing a report only allows a user to interact with the report
 Dashboards: Single canvas containing tiles and widgets (Easy viewing and monitoring).
   Sharing a dashboard only allows a user to interact with the dashboard
+  Each tile pinned from a report or from Q&A displays a single visualization that was created from a dataset and pinned to the dashboard.
 App is a collection of Dashboards. Are interactive, consumer does not need PRO license.
+
+why do people build Dashboard
+
+  To see all information needed to make decisions in one glance.
+  To monitor the most important information about your business.
+  To ensure all colleagues are on the same page, viewing and using the same information.
+  To monitor the health of a business, product, business unit, or marketing campaign, etc.
+  To create a personalized view of a larger dashboard and show all the metrics that matter to them.
+
 
 Template Apps
 - Enable Power BI partners to build Power BI apps and deploy to any Power BI customer.
 - you create a set of out-of-the-box content
+
+Describe cleaning and tranforming data
+Cleaning and transforming data is how you prepare your data and get it ready to be used.
+To begin transforming and cleaning data, you use the Power BI Desktop application.
+Power BI Desktop includes the Power Query Editor tool,
+
+1. Tranform data with query Editor from different sources (CRM, Cloud)
+  ** It's also important that you have a header row but no columns or rows that display totals.
+2. Create Reports with Power BI Desktop
+3. Publish report with Power BI Service
+4. Browser & consume with mobile apps
+
+Describe using AI Insights to spot trends and anomalies
+Power BI’s insights feature helps organizations easily identify insights such as anomalies and trends in
+ your data as you interact and consume elements such as reports, dashboards, and visualizations.
+
+There are multiple insights feature powered by AI
+Insights for reports
+Insights for individuals visuals
+Insights for dashboard tiles
+Quick insights for datasets
+AI inisghts for data models in Power Query
+
+When Power BI identifies insights, you're presented with a notification
+
+An anomaly is an abnormality in time-series data, such as unexpected spikes and dips in the data.
+A trend occurs when there's a prolonged increase or decrease in time-series data.
+KPI analysis with a target looks at the variance of the current value to its target.
+
 
 Ribbon.
 Report View

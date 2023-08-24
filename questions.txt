@@ -1,0 +1,73 @@
+1. You need to enable users to ask questions with natural language phrases.?
+ANSWER --> Power BI, Power Virtual Agents
+
+2. Information about the request must be stored in a SharePoint Online list.
+When a new item is added to the list, a new team must be created for that project.
+ANSWER --> Create an automted Cloud flow - Add a connection to Microsoft Teams
+
+3. You need to prevent external leakage of corporate data.
+ANSWER --> Create data policies
+
+4. You need to recommend whether to use Microsoft Dataverse or Microsoft Dataverse for Teams
+to store data for a new Power Apps app.
+ANSWER --> Auditing, Multiple Business Unit
+
+5. You plan to create a one-to-many relationship between two tables named TableA and TableB in Microsoft Dataverse.
+You need to identify the column data type that is created for the relationship in TableB.
+ANSWER --> lookup
+
+6. You have a column that allows users to select one of two options: Approve or Reject.
+You need to allow for adding more options to the column or changing the label of the options in the future.
+ANSWER --> Choice
+
+7. You need to fetch data from the portal in a flow.
+ANSWER --> Custom connector
+
+8. The sales team has prebuilt reports in Power BI that contain sales data.
+You need to recommend a solution that allows users to reuse the same dataset to build their own reports and dashboards.
+ANSWER --> Share the dataset containing sales data
+
+9. You need to aggregate a text field by adding it to a visual in a Power BI report.
+ANSWER --> COUNT
+
+10. An operations manager needs to view a single page of information each day that shows the following:
+Create a Power BI Dashboard by using the Power BI service.
+
+11. You need to create a dashboard containing tiles for individual visualizations.
+ANSWER --> Pin a visualization - Use the Q&A question box
+
+12. You need to set the text color to red?
+Select the label control. Select the color picker control in the toolbar and choose red from the color menu.
+Select the label control. Choose the Color property in the formula bar. Set the formula value to Color.Red.
+Select the label control. Open the Properties pane and choose the Advanced tab. Find the Color property and add Color.Red to the textbox.
+
+13. You need to ensure that the app displays data from an Azure SQL database.
+ANSWER --> Canvas app
+
+14. You configure a canvas app to track and order office stationery. The app allows users to order multiple stationery items.
+The items selected by the user must be reset each time a user reopens the app.
+You need to store user selections.
+ANSWER --> Collection
+
+15. You need to add a table to the navigation pane of the app.
+Subarea in sitemap can be used to show tables/ dashboards/custom pages:
+
+16. You need to create a Power Automate flow to allow managers to approve or deny vacation requests.
+Cloud Flow, Business process flow
+
+17. You need to ensure users can access the attachment in the approval notification.
+Email inbox, Power Automate Portal, Microsoft Teams
+
+18. You need to ensure an email notification is added to the flow.
+Action
+
+19. You need to enter identical data that will be referenced in multiple paths in the flow only once.
+Compose
+
+20.You need to ensure that the chatbot understands natural language phrases.
+A Power Virtual Agents entity allows a chatbot to map natural language to a general subject.
+Topics are used to determine the general category of the conversation.
+A channel allows a bot to be available to a particular platform, such as Microsoft Teams.
+
+21.You need to share Dataverse data with external users.
+Form and list components can be added to a web page in a Power Pages site to expose data from Dataverse to external customers.
