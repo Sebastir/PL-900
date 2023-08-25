@@ -71,3 +71,19 @@ A channel allows a bot to be available to a particular platform, such as Microso
 
 21.You need to share Dataverse data with external users.
 Form and list components can be added to a web page in a Power Pages site to expose data from Dataverse to external customers.
+
+22.You need to add the contact job titles in the list of contacts that is displayed in the account form.
+contact view
+
+23. A connector in the flow returns an array of objects. You need to filter the array.
+Data Operation
+
+24. You need to configure the chatbot to identify when an email address is included in a user’s response to the chatbot.
+Prebuit entities
+
+25. Which two features are only available in the Power BI service? Each correct answer presents a complete solution.
+Dashboards - Workspaces
+
+26. The company plans to create visualizations in Power BI to analyze repository usage including commits and pull requests.
+  You need to create reports for repository usage.
+  Install a template app in the Power BI servie

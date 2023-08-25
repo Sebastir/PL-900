@@ -1,0 +1,35 @@
+Power Pages
+Websites are an important part of establishing your organization’s identity and a critical component in building loyalty.
+Microsoft Power Pages is a platform for creating, hosting, and administering modern external-facing business websites.
+Power Pages provides you with rich customizable templates,
+With Power Pages, you can build sites by using your organization's business data stored in Microsoft Dataverse.
+When some elements do not meet the specific need, maker could extend the functionality using Visual Studio Code
+and the Power Platform Command-Line Interface (CLI) to create powerful business application websites.
+
+Value proposition
+- Improve customer interactions
+- Simplify data operations
+- Improve day to day operations
+- Build Relationship with buyers
+
+Building a site using Power Pages
+  Create a website.
+  Define the pages.
+  - The main tool that is used to build sites is the Design Studio.
+  -  Design Studio is broken down into workspaces:
+      Pages workspace: Allows makers to create, edit the design, and arrange the webpages in your site.
+        These widgets include text, image, video, Power BI reports, lists, forms, and others.
+      Styling workspace: Used to personalize the look and feel of your site by adding styling and theming to your site.
+      Data workspace: Allows you to create and modify Microsoft Dataverse tables used in data-driven web applications
+        In the Data workspace, a maker can use pre-existing or new Dataverse model-driven app views to build list components.
+      Set up workspace: Primary administrative area for side administration and management.
+  Theme and brand your site.
+    Styling offers 13 preset themes. For each theme, you can customize the color palette, background color, font styles, button styles, and section margins.
+    The Styling workspace lets you apply global site styles.
+  Connect to Dataverse Data.
+    When working in the Data workspace, makers can create and modify Dataverse tables directly in the Design Studio by using the Data workspace.
+  Secure your site.
+    With Power Pages, you can set up different security components to ensure that important data isn't being exposed to just anyone.
+
+Scenario-based templates are complete sites that meet common needs such as registering for afterschool classes, applying for permits, and booking meetings.
+ Site design templates create websites with a set of premade pages with different layouts, images, and colors.

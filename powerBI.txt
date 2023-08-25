@@ -106,3 +106,8 @@ A visualization can be selected and then pinned to a new or an existing dashboar
 The Q&A feature on the dashboard allows asking a question about the data and this generates visualizations that can be pinned to the dashboard.
 Pinning a live report page will add the page and all its visualizations to a dashboard.
 The visualization pane is available for reports not for dashboards.
+
+Bar charts are used to visualize and compare data across categories.
+Dot plot charts allow you to compare multiple measures by their magnitudes and represent the data with dots.
+Gauge charts are useful to represent a single value that measures progress towards a goal or a KPI.
+Combo charts are suitable for the comparison of data between two measures in a single visualization.

@@ -1,0 +1,21 @@
+ Concept
+ AI Builder enables your business to use intelligence to automate processes and
+ glance insights from your data in Power Apps and Power Automate.
+You can build custom models tailored to your needs or choose a prebuilt model that is ready to use
+for many common business scenarios.
+
+Prebuilt -> Add intelligence without having to gather data and then build, train, pushing the Model
+Custom --> Help you create more complex from the ground up
+
+Models available for Business Scenarios
+- Prediction model
+- Business Card Reader
+- Category Classification
+- ID Reader
+- Invoice Processing
+- Key phrase extraction
+- Language detection
+- Receipt processing
+- Sentiment analysis
+- Text Recognition
+- Text Translation

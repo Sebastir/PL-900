@@ -1,0 +1,49 @@
+Describe Power Virtual Agents
+- A bot is a form of Artificial Intelligence (AI) that simulates human conversation through a chat interface.
+- Bots listen for keywords and phrases that relate to the library of known,
+ common customer issues (topics) that are stored in the bot,
+ and it will return answers quickly and iteratively as the customer continues the chat.
+  The bot continues to check if the customer's question has been answered, and then refines its selection of topics to solve the customer's problem.
+
+  Value proposition
+  - Power Virtual Agents eliminates the gap between the subject matter experts and the development teams building the bots
+  - long latency between teams recognizing an issue and updating the bot to address it
+  - minimizes the IT effort required to deploy and maintain a custom conversational solution.
+
+  Components of Power Virtual Agents
+  Topics
+    Topics are used to determine the general category of the conversation.
+    A topic has trigger phrases, which are phrases, keywords, or questions that a user is likely to type
+    that is related to a specific issue.
+    Topics also have conversation nodes, which are what you use to define how a chatbot should respond and what it should do.
+    2 Primary Elements
+      Triggers Phrases: Represent phrases users might enter that triggers the topic
+      Conversation Path:  This defines the path that is taken based on input provided by the customer
+          Displaying messages
+          Asking questions
+          Show a message
+          Call and Action
+          Redirect to another topic
+  Entities
+    A Power Virtual Agents entity allows a chatbot to map natural language to a general subject.
+    One fundamental aspect of natural language understanding is to identify entities in a user dialog.
+    An entity can be viewed as an information unit that represents a certain type of a real-world subject,
+      phone number,
+      zip code,
+      city,
+       or even a person's name.
+  Actions
+    - You can enable your chatbot to perform an action by calling a Microsoft Power Automate flow.
+    - you can use flows with end-user authentication to retrieve information about a user after they sign in.
+  Publishing
+    - These include live websites, mobile apps, and messaging platforms like Microsoft Teams and Facebook.
+     After you have published at least once, you can connect your chatbot to additional channels.
+
+Build a basic chatbot
+- Bots are created using the Power Virtual Agents designer.
+  ** you need to provide a name and specify the language it speaks.
+- Build out the topics you want for the bot.
+  ** topics are dialog trees that describe how your bot responds to a user's question.
+- Tets your content in real time
+  - Test your bot option
+-
