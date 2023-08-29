@@ -16,21 +16,31 @@ canvas app (Build an app from a blank canvas )
   - reports a probelm with audio/visual equipment (Task focus)
   - Collection in a canvas app can be used to store data temporarily within the app.
 
+Canvas apps use Power Fx formulas to control the visual elements of the screens
+Canvas apps can include AI controls for form processing and object detection.
+
+
+
 Journey to Build Canvas App
 - Identify a business need that can be addressed by Power Apps.
   ** App Format (Tablet or Phone)
 - Connect to any necessary data in your Power Apps.
   ** you need to connect your app to your data.
 - Design the app using controls, buttons, and an easy-to-use interface.
+  SCREEN
+  A screen is a container for other controls.
   GALLERY
-  A gallery displays rows from a table of data.
+  A gallery displays rows from a table of data.you can add other controls to a gallery item, such as a link to the game location.
   FORM
   Forms are focused on working with a specific record, often based on a selection from a gallery.
   MEDIA
   Add background images, include a camara button (so users can take pictures from the app), barcode reader
   CHARTS
   Add charts so user can perform analysis
-
+  LIST BOX
+  displaying a list of values when a user needs to choose options from an available list.
+  VIEW
+  A view displays columns from the table but as a list.
   INPUT CONTROLS (Insert tab you can access controls)
     Text
     Inputs
@@ -62,6 +72,8 @@ model-driven app (Build from data in Microsoft Dataverse)
 - define forms
 - define business rules
 - Process focused
+
+Model-driven apps use role-based security to control access to the app, its features, and its data.
 
 Data Components of the model-driven app.
 Table. Logical structure of data

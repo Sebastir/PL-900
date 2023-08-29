@@ -86,3 +86,11 @@ Compose creates an array that you can reference later in the flow.
 Apply to each is a loop that processes each record in a set of data in turn.
 A condition is used for if…then…else logic to control the actions taken in a flow.
 A switch action is used to perform different actions depending on a value in the flow.
+
+The Control connector has an ‘Apply to each’ action that can be used through collection records.
+The Data Operation connector contains actions to shape and transform data. Like filter array function, select operation allows you to add a new property
+The Content Conversion connector converts HTML to text.
+
+ Do until requires a condition to be used
+ The Apply to each action allows to loop through items in a collection.
+ Switch allows taking an input parameter and performing different steps based on the input’s value. In this case

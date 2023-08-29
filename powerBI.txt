@@ -111,3 +111,7 @@ Bar charts are used to visualize and compare data across categories.
 Dot plot charts allow you to compare multiple measures by their magnitudes and represent the data with dots.
 Gauge charts are useful to represent a single value that measures progress towards a goal or a KPI.
 Combo charts are suitable for the comparison of data between two measures in a single visualization.
+A map is meant to associate quantity information to locations.
+A line chart can be used to display a series over time.
+A pie chart is meant to show the relationship of parts to a whole.
+ KPI is meant to show the progress towards a goal.

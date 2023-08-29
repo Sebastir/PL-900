@@ -11,7 +11,7 @@ Security --> Dataverse handles authentication via Azure Active Directory
 Logic --> Dataverse allows you to easily apply business logic at the data level.
 Data --> Dataverse allows you to discover, model, validate and report on your data.
 Storage --> Store in Azure Cloud (remove the concern how to scale)
-Integration --> API, webhooks, eventing provides flexibility to get data in and out.
+Integration --> API, webhooks, custom integration provide flexibility to get data in and out.
 
 Environments
 Each environment allows you to provide 1 dataverse database. So user access, security settings and storage are associated
@@ -23,7 +23,7 @@ Dev Environment --> Sandboxes
 Proof of Concept --> Trial environemnt (30 days)
 
 Microsoft Dataverse strucure and Benefits
-Structure is baed upon the definition and schema in the Common Data Model.
+Structure is based upon the definition and schema in the Common Data Model.
 It simplifies the integration of solutions which make use of the Common Data Model
 Rich ecosystem of solutions (templates, tables)
 
@@ -33,7 +33,7 @@ Tables can hold millions of items
 And you can extend the storage in each instance of a Microsoft Dataverse DB to 4 terabytes per instance.
 Data storage is pooled between all licensed
 The amount of data is based on type of license.
-Standard: outo-of-box tables like account, business unit, contact, task.
+Standard: out-of-box tables like account, business unit, contact, task.
 Managed: Are not customizable and have been imported into the env as part of a managed solution
 Custom: Created for a specific business application.
 

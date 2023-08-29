@@ -123,6 +123,8 @@ Data in transit and within MS Datacenter are secured
 Connections are encrypted, all public end points are secured using TLS.
 TLS 1.2 (or higher) is requried for accessing the server endpoints.
 
+Data loss prevention policies can be used to control the use of connectors to data and services. DLP policies allow classifying connectors as business, non-business, and blocked.
+
 Accessibility
 An accessible canvas app will allow users with vision, hearing, and other impairments to successfully use the app.
 You can use Accessibility Checker to help review potential accessibility issues in your app.

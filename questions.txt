@@ -87,3 +87,36 @@ Dashboards - Workspaces
 26. The company plans to create visualizations in Power BI to analyze repository usage including commits and pull requests.
   You need to create reports for repository usage.
   Install a template app in the Power BI servie
+
+27. A company uses Microsoft Exchange Online. The company receives email messages from its customers.
+The company wants to determine whether customers are happy, satisfied, or upset. Email messages must be routed to the proper representative based on sentiment.
+You need to create a flow in Power Automate that can read and route the messages.
+
+ Connect to Azure Cognitive Service for Language and use the Sentiment action.
+ Connect to AI Builder and use the prebuilt sentiment analysis model.
+
+28. You need to restrict access to all social media connectors.
+Data loss prevention (DLP) policy
+
+29. You plan to create a canvas app that allows users to view a list of current scores for all local professional sporting events.
+Screen - gallery
+
+30. You need to create a new model-driven app for a different group of users. The model-driven app must restrict the columns in a table that users can change the values.
+Create a new form for the Microsoft Dataverse table.
+ Select the form in the app designer.
+
+ 31. Which three solutions should you use? Each correct answer presents part of the solution.
+ Power Automate Portal, Power Automate Mobile app, Power Apps Studio
+
+32. You need to determine which features are only available in Microsoft Dataverse.
+Multiple currency support, mobile offline
+
+33. You need to identify two features that are unique to the Power Virtual Agents web app.
+
+34. You need to edit Power BI report, You need to add a calculated column.
+Open the report using Power BI Desktop - Select the Data tab and then select New column.
+
+35. The company needs to present last year’s revenue and customer acquisitions in this meeting.
+MAP, Line Chart
+
+36.

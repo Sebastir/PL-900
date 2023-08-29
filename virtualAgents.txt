@@ -25,6 +25,7 @@ Describe Power Virtual Agents
           Call and Action
           Redirect to another topic
   Entities
+    Entities are used in Power Virtual Agents chatbots to assist in natural language understanding.
     A Power Virtual Agents entity allows a chatbot to map natural language to a general subject.
     One fundamental aspect of natural language understanding is to identify entities in a user dialog.
     An entity can be viewed as an information unit that represents a certain type of a real-world subject,
@@ -47,3 +48,7 @@ Build a basic chatbot
 - Tets your content in real time
   - Test your bot option
 -
+
+Connections cannot be added to Power Virtual Agents chatbots.
+A chatbot created with Power Virtual Agents in Microsoft Teams can only be access by users within your organization. Only to be deployed in Teams channel.
+If you need to have a chatbot accessible by external users, you need to create the chatbot using the Power Virtual Agents web app. To be embedded in Websites

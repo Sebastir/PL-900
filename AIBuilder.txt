@@ -5,6 +5,10 @@ You can build custom models tailored to your needs or choose a prebuilt model th
 for many common business scenarios.
 
 Prebuilt -> Add intelligence without having to gather data and then build, train, pushing the Model
+  Sentiment analysis
+  text recognition
+  languague detection
+
 Custom --> Help you create more complex from the ground up
 
 Models available for Business Scenarios
