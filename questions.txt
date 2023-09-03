@@ -119,4 +119,9 @@ Open the report using Power BI Desktop - Select the Data tab and then select New
 35. The company needs to present last year’s revenue and customer acquisitions in this meeting.
 MAP, Line Chart
 
-36.
+36.You need to visually represent the tables and their relationships so that you can understand the data you are working with before you build the report.
+ Click on the Modeling view and examine the diagram of available tables and their relationships with each other.
+
+37.You need to install and configure prebuilt Power BI dashboards and reports.
+ Find a Power BI template app in the Power BI Apps marketplace and install it.
+  Connect the app to the data.

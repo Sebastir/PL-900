@@ -115,3 +115,5 @@ A map is meant to associate quantity information to locations.
 A line chart can be used to display a series over time.
 A pie chart is meant to show the relationship of parts to a whole.
  KPI is meant to show the progress towards a goal.
+
+The Modeling view allows viewing a diagram of available tables and their relationships with each other.
